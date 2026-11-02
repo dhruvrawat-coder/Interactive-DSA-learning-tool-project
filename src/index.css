@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+@layer base {
+  :root {
+    --bg-app: #070B14;
+    --surface-1: #0B1220;
+    --surface-2: #0F1A2E;
+    --surface-elevated: #15243E;
+    --text-primary: #FFFFFF;
+    --text-secondary: #94A3B8;
+    --text-muted: #64748B;
+    --border-standard: #1E385C;
+    --accent-cyan: #00F0FF;
+    --accent-cyan-hover: #00D1DF;
+    --accent-cyan-glow: rgba(0, 240, 255, 0.25);
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #070B14;
+  color: #FFFFFF;
+  overflow-x: hidden;
+  letter-spacing: -0.01em;
+}
+
+code, pre, .font-mono {
+  font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  letter-spacing: -0.02em;
+}
+
+/* Eye-catchy Cyberpunk Neon scrollbar with cyan glow on hover */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #070B14;
+}
+::-webkit-scrollbar-thumb {
+  background: #1A3052;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00F0FF;
+  box-shadow: 0 0 10px #00F0FF;
+}
