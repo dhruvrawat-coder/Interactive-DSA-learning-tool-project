@@ -88,6 +88,5 @@ npm run preview
 
 ---
 
-## 📚 Technical Documentation
-- [`PROJECT_IMPROVEMENTS.md`](./PROJECT_IMPROVEMENTS.md): Detailed changelog of algorithmic and educational improvements.
-- [`VIVA_PREPARATION.md`](./VIVA_PREPARATION.md): Defensible oral examination and DAA viva questions/answers.
+## 📄 License
+This project is open-source and available under the [MIT License](LICENSE).
